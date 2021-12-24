@@ -7,6 +7,7 @@ return`Hello ${pushname}🤗 Saya ${namabot}
 🎁 Expired Prem : ${isOwner?`Unlimited Owner`:isPrem ? `${cekvipp.days}d, ${cekvipp.hours}h, ${cekvipp.minutes}m, ${cekvipp.seconds}s`:'Not Premium'}
 💳 Limit : ${isOwner?`Unlimited`: isPrem ? `Unlimited Premium` : getLimit(sender, limitawal, limit) +' / '+limitawal}
 💹 Balance : ${getBalance(sender, balance)}
+🚹 Pesan owner : Jangan spam goblok🗿.If bot ngga respon cht aja gw di http://wa.me/60147366955
 
 
 *Owner-Menu*
@@ -132,10 +133,6 @@ ${simbolnya} ${prefix}antilink [on/off]
 ${simbolnya} ${prefix}antitroli [on/off]
 
 *Anime-Menu* 
-${simbolnya} ${prefix}loli
-${simbolnya} ${prefix}neko
-${simbolnya} ${prefix}waifu
-${simbolnya} ${prefix}shinobu
 ${simbolnya} ${prefix}megumin
 ${simbolnya} ${prefix}bully
 ${simbolnya} ${prefix}cuddle
